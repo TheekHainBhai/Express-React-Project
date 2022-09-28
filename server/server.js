@@ -13,6 +13,5 @@ app.use(cors());
 
 //to set port
 const port = process.env.PORT || 8080;
-app.listen(port, ()=>console.log(`listening on port ${port}...`));
-
+app.listen(port, ()=>console.log(`listening on port ${port}...`))
 
